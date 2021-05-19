@@ -14,7 +14,6 @@ import (
 const (
 	formPhone   = "clientPhone"
 	formPeriod  = "invoicePeriod"
-	formFormat  = "outputFormat"
 	formInput   = "input.csv"
 	formMaxSize = 1 * 1024 * 1024
 )

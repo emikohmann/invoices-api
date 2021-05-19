@@ -20,8 +20,8 @@ go build
 
 ```bash
 curl --location --request POST 'http://localhost:8080/invoices/process' \
---form 'input.csv=@"/Users/your/file/path/input.csv"' \
---form 'clientPhone="+5491167930920"' \
---form 'invoicePeriod="2020-01-01/2020-12-30"'
+--form 'input.csv=@"/Users/$username/Downloads/input.csv"' \
+--form 'clientPhone=+5491167930920' \
+--form 'invoicePeriod=2020-01-01/2020-12-30'
 ```
 
